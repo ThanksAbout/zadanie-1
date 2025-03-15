@@ -1,3 +1,6 @@
+<?php
+  include 'header.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -25,23 +28,7 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-7">
-                <i class="far fa-comments fa-5x tm-site-icon"></i>
-                <h1 class="tm-site-name">Image Survey</h1>
-            </div>
-            <div class="col-sm-12 col-md-5 mt-md-0 mt-5">
-                <div class="tm-site-header-right-col">
-                    <a href="#" class="btn btn-primary">Contact Us</a>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="tm-parallax"></div>
-            </div>
-        </div>
+    
         <div class="row">
             <div class="tm-intro">
                 <div class="col-sm-12 col-md-8 mb-md-0 mb-4 tm-intro-left">
@@ -251,13 +238,7 @@
                 </div>
             </div> <!-- row -->
         </form>
-        <div class="row">
-          <div class="col-12">
-                <footer>
-                    <p class="text-center mb-3 tm-footer-text">Copyright &copy; 2018 Your Survey Name - HTML Form by <a rel="nofollow" href="https://templatemo.com">TemplateMo</a></p>
-                </footer>
-            </div>
-        </div>
+        
     </div>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/materialize.min.js"></script>
@@ -337,3 +318,6 @@
 </body>
 
 </html>
+<?php
+  include 'footer.php';
+?>
